@@ -1,0 +1,47 @@
+title: ""
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a new addition or bug fix for Hytale!
+  - type: textarea
+    id: actual
+    attributes:
+      label: 'Actual:'
+      description: "What is the current behavior?"
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 'Expected:'
+      description: "What is the expected behavior?"
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: 'Reference:'
+      description: "Any references for this?"
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 'Proposed solution:'
+      description: "Is there a solution you want to propose?"
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: 'Additional Notes'
+      description: "Any additional notes?"
+      render: bash
+    validations:
+      required: false
