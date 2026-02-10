@@ -9,7 +9,6 @@ body:
     attributes:
       label: 'Actual:'
       description: "What is the current behavior?"
-      render: bash
     validations:
       required: true
   - type: textarea
@@ -25,15 +24,13 @@ body:
     attributes:
       label: 'Reference:'
       description: "Any references for this?"
-      render: bash
     validations:
-      required: true
+      required: false
   - type: textarea
     id: solution
     attributes:
       label: 'Proposed solution:'
       description: "Is there a solution you want to propose?"
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -41,6 +38,5 @@ body:
     attributes:
       label: 'Additional Notes'
       description: "Any additional notes?"
-      render: bash
     validations:
       required: false
