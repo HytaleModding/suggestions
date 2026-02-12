@@ -16,7 +16,6 @@ body:
     attributes:
       label: 'Expected:'
       description: "What is the expected behavior?"
-      render: bash
     validations:
       required: true
   - type: textarea
